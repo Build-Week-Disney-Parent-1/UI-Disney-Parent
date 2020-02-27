@@ -90,6 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -127,7 +128,66 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  padding: 2% 0;
+  height: 100%;
+}
+.nav h1 {
+  font-size: 3.2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.nav .links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav .links li {
+  width: 33%;
+  text-align: center;
+  transition: all 0.2s;
+}
+.nav .links li:hover {
+  background: #009DDC;
+}
+.nav .links a {
+  color: #2f2f2f;
+  font-size: 1.6rem;
+}
 body {
   background: #eeeeee;
   font-family: 'Gentium Basic', serif, sans-serif;
+}
+.cta {
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.cta-left {
+  width: 48%;
+}
+.cta-left h1 {
+  font-size: 6rem;
+  font-style: italic;
+}
+.cta-right {
+  width: 48%;
+  background: #009DDC;
+  border-radius: 10px;
+  height: auto;
+}
+.cta-right img {
+  width: 100%;
+  height: auto;
+}
+.cta-right h3 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 2% 0;
 }

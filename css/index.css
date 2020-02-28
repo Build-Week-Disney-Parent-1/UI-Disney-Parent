@@ -136,7 +136,7 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3%;
+  margin: 0 5%;
   padding: 2% 0;
   height: 100%;
 }
@@ -161,6 +161,7 @@ table {
 .nav .links a {
   color: #2f2f2f;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 body {
   font-family: 'Gentium Basic', serif, sans-serif;
@@ -183,13 +184,11 @@ main .cta-left {
 main .cta-left h1 {
   font-size: 6rem;
   font-style: italic;
-  padding: 2% 0;
 }
 main .cta-left p {
   font-style: italic;
-  font-weight: bold;
   font-size: 1.4rem;
-  line-height: 1.4rem;
+  line-height: 2rem;
   padding: 2% 0;
 }
 main .cta-left .btn {
@@ -221,7 +220,7 @@ main .cta-right img {
 main .cta-right h3 {
   font-size: 2rem;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding: 7% 0;
 }

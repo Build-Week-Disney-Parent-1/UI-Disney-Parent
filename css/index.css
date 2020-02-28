@@ -240,7 +240,7 @@ main .img-text {
   font-style: italic;
   font-weight: bold;
   font-size: 2rem;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 0 12%;
 }
 main .img-text p {

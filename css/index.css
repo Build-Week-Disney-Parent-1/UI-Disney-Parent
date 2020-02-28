@@ -128,6 +128,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.text-styles {
+  font-style: italic;
+  font-weight: bold;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -137,7 +141,7 @@ table {
   height: 100%;
 }
 .nav h1 {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   font-style: italic;
   font-weight: bold;
 }
@@ -156,38 +160,111 @@ table {
 }
 .nav .links a {
   color: #2f2f2f;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 body {
-  background: #eeeeee;
   font-family: 'Gentium Basic', serif, sans-serif;
 }
-.cta {
-  margin: 0 5%;
+.bg-container {
+  width: 90%;
+  background: #eeeeee;
+  margin: auto;
+  padding-bottom: 5%;
+}
+main .cta {
+  margin: 5% 12%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.cta-left {
+main .cta-left {
   width: 48%;
+  text-align: center;
 }
-.cta-left h1 {
-  font-size: 6rem;
+main .cta-left h1 {
+  font-size: 3.8rem;
   font-style: italic;
+  font-weight: bolder;
 }
-.cta-right {
+main .cta-left p {
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 2% 0;
+}
+main .cta-left .btn {
+  padding: 4%;
+  width: 50%;
+  background: #009DDC;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Gentium Basic', serif, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+main .cta-left .btn:hover {
+  box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+main .cta-right {
   width: 48%;
   background: #009DDC;
   border-radius: 10px;
   height: auto;
 }
-.cta-right img {
+main .cta-right img {
   width: 100%;
   height: auto;
 }
-.cta-right h3 {
+main .cta-right h3 {
   font-size: 2rem;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
-  padding: 2% 0;
+  padding: 5% 0;
+}
+main .img-gallery {
+  display: flex;
+  margin: 0 12%;
+  margin-bottom: 2%;
+  justify-content: space-between;
+}
+main .img-gallery img {
+  width: 22%;
+}
+main .img-text {
+  display: flex;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  margin: 0 12%;
+}
+main .img-text p {
+  text-align: center;
+}
+.footer-h3 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3.8rem;
+  text-align: center;
+  margin: 3%;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20%;
+}
+.footer-icons--card img {
+  width: 75%;
+}
+.footer-icons--card p {
+  margin: 4% 0;
+}
+.footer .copyright {
+  text-align: center;
+  margin: 2% 0;
 }

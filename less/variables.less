@@ -14,7 +14,7 @@
 //Font/font sizes...
 @font: 'Gentium Basic', serif, sans-serif;
 @h1: 6rem;
-@h2: 3.2rem;
+@h2: 3.8rem;
 @h3: 2rem;
 
 //Mixins...
@@ -22,4 +22,20 @@
     display: flex;
 }
 
+.btn(@padding, @width) {
+    padding: @padding;
+    width: @width;
+    background: @prime-color;
+    border: none;
+    border-radius: 5px;
+    font-family: @font;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
 
+
+.text-styles {
+    font-style: italic;
+    font-weight: bold;
+}

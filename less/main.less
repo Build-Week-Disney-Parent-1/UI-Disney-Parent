@@ -1,35 +1,72 @@
-.cta {
-    margin: 0 5%;
-    .flex;
-    justify-content: space-between;
+main {
+    .cta {
+        margin: 5% 12%;
+        .flex;
+        justify-content: space-between;
 
-    &-left {
-        width: 48%;
+        &-left {
+            width: 48%;
+            text-align: center;
 
-        h1 {
-            font-size: @h1;
-            font-style: italic;
+            h1 {
+                font-size: @h1;
+                font-style: italic;
+                padding: 2% 0;
+            }
+
+            p {
+                .text-styles;
+                font-size: 1.4rem;
+                line-height: 1.4rem;
+                padding: 2% 0;
+            }
+
+            .btn {
+                .btn(4%, 50%);
+                transition: all .3s;
+            }
+
+            .btn:hover {
+                box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+            }
+        }
+
+        &-right {
+            width: 48%;
+            background: @prime-color;
+            border-radius: 10px;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+
+            }
+
+            h3 {
+                font-size: @h3;
+                font-style: italic;
+                font-weight: 700;
+                text-align: center;
+                padding: 7% 0;
+            }
         }
     }
 
-    &-right {
-        width: 48%;
-        background: @prime-color;
-        border-radius: 10px;
-        height: auto;
+    .img-gallery {
+        .flex;
+        margin: 0 12%;
+        margin-bottom: 2%;
+        justify-content: space-between;
+    }
 
-        img {
-            width: 100%;
-            height: auto;
+    .img-text {
+        .flex();
+        .text-styles;
+        font-size: @h3;
+        justify-content: space-around;
+        margin: 0 12%;
 
-        }
-
-        h3 {
-            font-size: @h3;
-            font-style: italic;
-            font-weight: 700;
-            text-align: center;
-            padding: 2% 0;
-        }
     }
 }

@@ -137,9 +137,18 @@ body {
   margin: auto;
   padding-bottom: 5%;
 }
+.btn-hover {
+  box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
 .text-styles {
   font-style: italic;
   font-weight: bold;
+}
+.h1-styles {
+  font-size: 3.8rem;
+  font-style: italic;
+  font-weight: bolder;
 }
 .nav {
   display: flex;
@@ -226,6 +235,7 @@ body {
   font-weight: 700;
   font-size: 1.4rem;
   transition: all 0.3s;
+  border: solid 2px black;
 }
 .main-index .cta-left .btn:hover {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
@@ -265,4 +275,53 @@ body {
   justify-content: space-around;
   margin: 0 12%;
   text-align: center;
+}
+.main-contact h1 {
+  font-size: 3.8rem;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 2% 12%;
+}
+.main-contact .contact-form {
+  margin: 2% 12%;
+  background: #009DDC;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+.main-contact .contact-form .form {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0;
+  width: 75%;
+  margin: auto;
+  font-style: italic;
+  font-weight: bold;
+}
+.main-contact .contact-form .form-label {
+  margin: 3% 0 1% 0;
+}
+.main-contact .contact-form .form-element {
+  padding: 1%;
+}
+.main-contact .contact-form .form .btn {
+  display: flex;
+  padding: 2%;
+  width: 25%;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Gentium Basic', serif, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  border: solid 2px black;
+  margin: 2% 0;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+.main-contact .contact-form .form .btn:hover {
+  box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }

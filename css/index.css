@@ -194,28 +194,28 @@ body {
   text-align: center;
   margin: 2% 0;
 }
-main .cta {
+.main-index .cta {
   margin: 5% 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .cta-left {
+.main-index .cta-left {
   width: 48%;
   text-align: center;
 }
-main .cta-left h1 {
+.main-index .cta-left h1 {
   font-size: 3.8rem;
   font-style: italic;
   font-weight: bolder;
 }
-main .cta-left p {
+.main-index .cta-left p {
   font-style: italic;
   font-size: 1.4rem;
   line-height: 2rem;
   padding: 2% 0;
 }
-main .cta-left .btn {
+.main-index .cta-left .btn {
   padding: 4%;
   width: 50%;
   background: #009DDC;
@@ -227,37 +227,37 @@ main .cta-left .btn {
   font-size: 1.4rem;
   transition: all 0.3s;
 }
-main .cta-left .btn:hover {
+.main-index .cta-left .btn:hover {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
-main .cta-right {
+.main-index .cta-right {
   width: 48%;
   background: #009DDC;
   border-radius: 10px;
   height: auto;
 }
-main .cta-right img {
+.main-index .cta-right img {
   width: 100%;
   height: auto;
 }
-main .cta-right h3 {
+.main-index .cta-right h3 {
   font-size: 2rem;
   font-style: italic;
   font-weight: 900;
   text-align: center;
   padding: 5% 0;
 }
-main .img-gallery {
+.main-index .img-gallery {
   display: flex;
   margin: 0 12%;
   margin-bottom: 2%;
   justify-content: space-between;
 }
-main .img-gallery img {
+.main-index .img-gallery img {
   width: 22%;
 }
-main .img-text {
+.main-index .img-text {
   display: flex;
   font-style: italic;
   font-weight: bold;

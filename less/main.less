@@ -5,9 +5,19 @@
         justify-content: space-between;
         align-items: center;
 
+        @media only screen and(@tablet) {
+            flex-direction: column;
+        }
+
         &-left {
             width: 48%;
             text-align: center;
+
+            @media only screen and(@tablet) {
+                width: 100%;
+                margin-bottom: 5%;
+            }
+
             h1 {
                 .h1-styles;
             }
@@ -34,6 +44,11 @@
             border-radius: 10px;
             height: auto;
 
+            @media only screen and(@tablet) {
+                width: 100%;
+                margin-bottom: 2%;
+            }
+
             img {
                 width: 100%;
                 height: auto;
@@ -52,21 +67,21 @@
 
     .img-gallery {
         .flex;
-        margin: 0 12%;
-        margin-bottom: 2%;
         justify-content: space-between;
+        margin: 5% 12%;
 
-        img {
-            width: 22%;
+        &--left {
+            .img-gallery-card;
+
+            .img-text {
+                
+            }
+        }
+
+        &--right {
+            .img-gallery-card;
         }
     }
 
-    .img-text {
-        .flex();
-        .text-styles;
-        font-size: @h3;
-        justify-content: space-around;
-        margin: 0 12%;
-        text-align: center;
-    }
+    
 }

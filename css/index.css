@@ -495,6 +495,14 @@ body {
   border-radius: 5px;
   border: solid 1px black;
 }
+.main-contact .contact-form .form #comments {
+  padding: 1%;
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form #comments {
+    height: 10rem;
+  }
+}
 .main-contact .contact-form .form .btn {
   display: flex;
   padding: 2%;

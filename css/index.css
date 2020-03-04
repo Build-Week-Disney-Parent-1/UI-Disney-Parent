@@ -212,7 +212,7 @@ body {
   }
 }
 .nav .links li:hover {
-  background: #009DDC;
+  background: #04B7FF;
 }
 .nav .links a {
   color: #2f2f2f;
@@ -302,7 +302,7 @@ body {
 .main-index .cta-left .btn {
   padding: 4%;
   width: 50%;
-  background: #009DDC;
+  background: #04B7FF;
   border: none;
   border-radius: 5px;
   font-family: 'Gentium Basic', serif, sans-serif;
@@ -317,7 +317,7 @@ body {
 }
 .main-index .cta-right {
   width: 48%;
-  background: #009DDC;
+  background: #04B7FF;
   border-radius: 10px;
   height: auto;
 }
@@ -400,9 +400,14 @@ body {
   font-size: 2.8rem;
   margin: 2% 12%;
 }
+@media only screen and (max-width: 800px) {
+  .main-contact h2 {
+    font-size: 2rem;
+  }
+}
 .main-contact .contact-form {
   margin: 2% 12%;
-  background: #009DDC;
+  background: #04B7FF;
   border-radius: 10px;
 }
 .main-contact .contact-form .form {
@@ -419,6 +424,10 @@ body {
 }
 .main-contact .contact-form .form-element {
   padding: 1%;
+  font-family: 'Gentium Basic', serif, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid 1px black;
 }
 .main-contact .contact-form .form .btn {
   display: flex;
@@ -436,6 +445,21 @@ body {
   justify-content: center;
   align-self: center;
   cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .main-contact .contact-form .form .btn {
+    padding: 2%;
+    width: 100%;
+    background: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gentium Basic', serif, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+    margin: 4% 0;
+  }
 }
 .main-contact .contact-form .form .btn:hover {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);

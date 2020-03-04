@@ -7,6 +7,7 @@
 
         @media only screen and(@tablet) {
             flex-direction: column;
+            margin-bottom: 8%;
         }
 
         &-left {
@@ -15,7 +16,7 @@
 
             @media only screen and(@tablet) {
                 width: 100%;
-                margin-bottom: 5%;
+                margin-bottom: 8%;
             }
 
             h1 {
@@ -71,17 +72,27 @@
         margin: 5% 12%;
         flex-wrap: wrap;
         text-align: center;
-        height: auto;
+
+        @media only screen and(@tablet) {
+            flex-direction: column;
+        }
+
 
         &--left {
             .flex;
             flex-wrap: wrap;
             .img-gallery-card;
+            
 
-            .img-text {
-                .text-styles;
-                margin: 2% auto;
-                font-size: @h3;
+            img {
+                @media only screen and(@tablet) {
+                    width: 48%;
+                }
+            }
+
+            @media only screen and(@tablet) {
+                width: 100%;
+                margin-bottom: 8%;
             }
         }
 
@@ -90,11 +101,21 @@
             flex-wrap: wrap;
             .img-gallery-card;
 
-            .img-text {
-                .text-styles;
-                margin: 2% auto;
-                font-size: @h3;
+            img {
+                @media only screen and(@tablet) {
+                    width: 48%;
+                }
             }
+
+            @media only screen and(@tablet) {
+                width: 100%;
+            }
+        }
+
+        .img-text {
+            .text-styles;
+            margin: 2% auto;
+            font-size: @h3;
         }
     }
 

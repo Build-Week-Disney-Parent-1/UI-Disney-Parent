@@ -250,6 +250,7 @@ body {
 @media only screen and (max-width: 800px) {
   .main-index .cta {
     flex-direction: column;
+    margin-bottom: 8%;
   }
 }
 .main-index .cta-left {
@@ -259,7 +260,7 @@ body {
 @media only screen and (max-width: 800px) {
   .main-index .cta-left {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
   }
 }
 .main-index .cta-left h1 {
@@ -318,7 +319,11 @@ body {
   margin: 5% 12%;
   flex-wrap: wrap;
   text-align: center;
-  height: auto;
+}
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery {
+    flex-direction: column;
+  }
 }
 .main-index .img-gallery--left {
   flex-wrap: wrap;
@@ -326,11 +331,16 @@ body {
   width: 48.5%;
   justify-content: space-between;
 }
-.main-index .img-gallery--left .img-text {
-  font-style: italic;
-  font-weight: bold;
-  margin: 2% auto;
-  font-size: 2rem;
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--left img {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--left {
+    width: 100%;
+    margin-bottom: 8%;
+  }
 }
 .main-index .img-gallery--right {
   flex-wrap: wrap;
@@ -338,7 +348,17 @@ body {
   width: 48.5%;
   justify-content: space-between;
 }
-.main-index .img-gallery--right .img-text {
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--right img {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--right {
+    width: 100%;
+  }
+}
+.main-index .img-gallery .img-text {
   font-style: italic;
   font-weight: bold;
   margin: 2% auto;

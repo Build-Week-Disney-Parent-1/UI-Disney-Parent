@@ -336,7 +336,7 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .main-index .cta-left p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     margin: 2% 0;
   }

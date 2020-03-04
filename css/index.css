@@ -316,16 +316,33 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 5% 12%;
+  flex-wrap: wrap;
+  text-align: center;
+  height: auto;
 }
 .main-index .img-gallery--left {
+  flex-wrap: wrap;
   display: flex;
   width: 48.5%;
   justify-content: space-between;
 }
+.main-index .img-gallery--left .img-text {
+  font-style: italic;
+  font-weight: bold;
+  margin: 2% auto;
+  font-size: 2rem;
+}
 .main-index .img-gallery--right {
+  flex-wrap: wrap;
   display: flex;
   width: 48.5%;
   justify-content: space-between;
+}
+.main-index .img-gallery--right .img-text {
+  font-style: italic;
+  font-weight: bold;
+  margin: 2% auto;
+  font-size: 2rem;
 }
 .main-contact h2 {
   font-style: italic;

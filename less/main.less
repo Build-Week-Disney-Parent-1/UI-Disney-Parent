@@ -69,19 +69,34 @@
         .flex;
         justify-content: space-between;
         margin: 5% 12%;
+        flex-wrap: wrap;
+        text-align: center;
+        height: auto;
 
         &--left {
+            .flex;
+            flex-wrap: wrap;
             .img-gallery-card;
 
             .img-text {
-                
+                .text-styles;
+                margin: 2% auto;
+                font-size: @h3;
             }
         }
 
         &--right {
+            .flex;
+            flex-wrap: wrap;
             .img-gallery-card;
+
+            .img-text {
+                .text-styles;
+                margin: 2% auto;
+                font-size: @h3;
+            }
         }
     }
 
-    
+
 }

@@ -24,6 +24,10 @@
             &-label {
                 margin: 3% 0 1% 0;
                 font-style: normal;
+                @media only screen and(@mobile) {
+                    font-size: .8rem;
+                    margin: 4% 0 2% 0;
+                }
             }
 
             &-element {
@@ -32,6 +36,16 @@
                 font-weight: bold;
                 border-radius: 5px;
                 border: solid 1px black;
+                @media only screen and(@mobile) {
+                    font-size: .8rem;
+                }
+            }
+
+            #comments {
+                padding: 1%;
+                @media only screen and (@mobile) {
+                    height: 10rem;
+                }
             }
 
             .btn {
@@ -44,6 +58,10 @@
                 @media only screen and(@tablet) {
                     .btn(2%, 100%, @background-med);
                     margin: 4% 0;
+                }
+
+                @media only screen and(@mobile) {
+                    font-size: 1.2rem;
                 }
             }
 

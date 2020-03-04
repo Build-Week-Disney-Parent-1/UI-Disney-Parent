@@ -8,6 +8,10 @@
         @media only screen and(@tablet) {
             font-size: @h3;
         }
+
+        @media only screen and(@mobile) {
+            font-size: 1.6rem;
+        }
     }
 
     &-icons {
@@ -25,12 +29,20 @@
                 @media only screen and(@tablet) {
                     width: 50%;
                 }
+
+                @media only screen and(@mobile) {
+                    width: 45%;
+                }
             }
 
             p {
                 margin: 4% 0;
                 @media only screen and(@tablet) {
                     font-size: .8rem;
+                }
+
+                @media only screen and(@mobile) {
+                    font-size: .6rem;
                 }
             }
         }
@@ -41,6 +53,10 @@
         margin: 2% 0;
         @media only screen and(@tablet) {
             font-size: .8rem;
+        }
+
+        @media only screen and(@mobile) {
+            font-size: .6rem;
         }
     }
 }

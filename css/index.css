@@ -183,6 +183,11 @@ body {
     margin-bottom: 5%;
   }
 }
+@media only screen and (max-width: 500px) {
+  .nav h1 {
+    margin-bottom: 3%;
+  }
+}
 .nav .links {
   display: flex;
   justify-content: space-around;
@@ -208,7 +213,7 @@ body {
 @media only screen and (max-width: 500px) {
   .nav .links li {
     width: 100%;
-    margin: 2% 0;
+    margin: 1% 0;
   }
 }
 .nav .links li:hover {
@@ -218,6 +223,11 @@ body {
   color: #2f2f2f;
   font-size: 1.2rem;
   font-weight: 700;
+}
+@media only screen and (max-width: 500px) {
+  .nav .links a {
+    font-size: 1rem;
+  }
 }
 .footer-h3 {
   font-style: italic;
@@ -229,6 +239,11 @@ body {
 @media only screen and (max-width: 800px) {
   .footer-h3 {
     font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer-h3 {
+    font-size: 1.6rem;
   }
 }
 .footer-icons {
@@ -249,12 +264,22 @@ body {
     width: 50%;
   }
 }
+@media only screen and (max-width: 500px) {
+  .footer-icons--card img {
+    width: 45%;
+  }
+}
 .footer-icons--card p {
   margin: 4% 0;
 }
 @media only screen and (max-width: 800px) {
   .footer-icons--card p {
     font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer-icons--card p {
+    font-size: 0.6rem;
   }
 }
 .footer .copyright {
@@ -264,6 +289,11 @@ body {
 @media only screen and (max-width: 800px) {
   .footer .copyright {
     font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer .copyright {
+    font-size: 0.6rem;
   }
 }
 .main-index .cta {
@@ -293,11 +323,23 @@ body {
   font-style: italic;
   font-weight: bolder;
 }
+@media only screen and (max-width: 500px) {
+  .main-index .cta-left h1 {
+    font-size: 3rem;
+  }
+}
 .main-index .cta-left p {
   font-style: italic;
   font-size: 1.4rem;
   line-height: 2rem;
   padding: 2% 0;
+}
+@media only screen and (max-width: 500px) {
+  .main-index .cta-left p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2% 0;
+  }
 }
 .main-index .cta-left .btn {
   padding: 4%;
@@ -310,6 +352,20 @@ body {
   font-weight: 700;
   font-size: 1.4rem;
   transition: all 0.3s;
+}
+@media only screen and (max-width: 500px) {
+  .main-index .cta-left .btn {
+    padding: 4%;
+    width: 100%;
+    background: #04B7FF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gentium Basic', serif, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+  }
 }
 .main-index .cta-left .btn:hover {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
@@ -337,6 +393,11 @@ body {
   font-weight: 900;
   text-align: center;
   padding: 5% 0;
+}
+@media only screen and (max-width: 500px) {
+  .main-index .cta-right h3 {
+    font-size: 1.4rem;
+  }
 }
 .main-index .img-gallery {
   display: flex;
@@ -394,6 +455,11 @@ body {
     font-size: 1.6rem;
   }
 }
+@media only screen and (max-width: 500px) {
+  .main-index .img-gallery .img-text {
+    font-size: 1.4rem;
+  }
+}
 .main-contact h2 {
   font-style: italic;
   font-weight: bold;
@@ -422,12 +488,31 @@ body {
   margin: 3% 0 1% 0;
   font-style: normal;
 }
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form-label {
+    font-size: 0.8rem;
+    margin: 4% 0 2% 0;
+  }
+}
 .main-contact .contact-form .form-element {
   padding: 1%;
   font-family: 'Gentium Basic', serif, sans-serif;
   font-weight: bold;
   border-radius: 5px;
   border: solid 1px black;
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form-element {
+    font-size: 0.8rem;
+  }
+}
+.main-contact .contact-form .form #comments {
+  padding: 1%;
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form #comments {
+    height: 10rem;
+  }
 }
 .main-contact .contact-form .form .btn {
   display: flex;
@@ -459,6 +544,11 @@ body {
     font-size: 1.4rem;
     transition: all 0.3s;
     margin: 4% 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form .btn {
+    font-size: 1.2rem;
   }
 }
 .main-contact .contact-form .form .btn:hover {

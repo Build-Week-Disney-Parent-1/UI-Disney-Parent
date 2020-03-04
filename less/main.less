@@ -21,6 +21,10 @@
 
             h1 {
                 .h1-styles;
+
+                @media only screen and(@mobile) {
+                    font-size: 3rem;
+                }
             }
 
             p {
@@ -28,10 +32,19 @@
                 font-size: 1.4rem;
                 line-height: 2rem;
                 padding: 2% 0;
+                @media only screen and(@mobile) {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    margin: 2% 0;
+                }
+
             }
 
             .btn {
                 .btn(4%, 50%, @prime-color);
+                @media only screen and(@mobile) {
+                    .btn(4%, 100%, @prime-color);
+                }
             }
 
             .btn:hover {
@@ -62,6 +75,9 @@
                 font-weight: 900;
                 text-align: center;
                 padding: 5% 0;
+                @media only screen and(@mobile) {
+                    font-size: 1.4rem;
+                }
             }
         }
     }
@@ -118,6 +134,10 @@
             font-size: @h3;
             @media only screen and(@tablet) {
                 font-size: 1.6rem;
+            }
+
+            @media only screen and(@mobile) {
+                font-size: 1.4rem;
             }
         }
     }

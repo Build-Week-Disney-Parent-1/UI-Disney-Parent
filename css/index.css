@@ -488,12 +488,23 @@ body {
   margin: 3% 0 1% 0;
   font-style: normal;
 }
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form-label {
+    font-size: 0.8rem;
+    margin: 4% 0 2% 0;
+  }
+}
 .main-contact .contact-form .form-element {
   padding: 1%;
   font-family: 'Gentium Basic', serif, sans-serif;
   font-weight: bold;
   border-radius: 5px;
   border: solid 1px black;
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form-element {
+    font-size: 0.8rem;
+  }
 }
 .main-contact .contact-form .form #comments {
   padding: 1%;
@@ -533,6 +544,11 @@ body {
     font-size: 1.4rem;
     transition: all 0.3s;
     margin: 4% 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main-contact .contact-form .form .btn {
+    font-size: 1.2rem;
   }
 }
 .main-contact .contact-form .form .btn:hover {

@@ -24,6 +24,10 @@
             margin-bottom: 5%;
         }
 
+        @media only screen and(@mobile) {
+            margin-bottom: 3%;
+        }
+
     }
 
     .links {
@@ -45,9 +49,10 @@
             width: 33%;
             text-align: center;
             transition: all .2s;
+
             @media only screen and(@mobile) {
                 width: 100%;
-                margin: 2% 0;
+                margin: 1% 0;
             }
         }
 
@@ -59,7 +64,8 @@
             color: @font-color-dark;
             font-size: 1.2rem;
             font-weight: 700;
-            @media only screen and (@mobile){
+
+            @media only screen and (@mobile) {
                 font-size: 1rem;
             }
         }

@@ -183,6 +183,11 @@ body {
     margin-bottom: 5%;
   }
 }
+@media only screen and (max-width: 500px) {
+  .nav h1 {
+    margin-bottom: 3%;
+  }
+}
 .nav .links {
   display: flex;
   justify-content: space-around;
@@ -208,7 +213,7 @@ body {
 @media only screen and (max-width: 500px) {
   .nav .links li {
     width: 100%;
-    margin: 2% 0;
+    margin: 1% 0;
   }
 }
 .nav .links li:hover {

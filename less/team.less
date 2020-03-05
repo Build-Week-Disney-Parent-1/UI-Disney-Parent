@@ -1,0 +1,23 @@
+.team {
+    &-cards{
+        
+        &--each {
+            .flex;
+            flex-flow: column wrap;
+            align-items: center;
+            padding: 5%;
+            margin: auto;
+
+            img {
+                width: 22%;
+                border-radius: 50%;
+            }
+
+            .team-name {
+                .text-styles;
+                font-size: @name-size;
+                margin: 2% 0;
+            }
+        }
+    }
+}

@@ -566,3 +566,20 @@ body {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+.team-cards--each {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 5%;
+  margin: auto;
+}
+.team-cards--each img {
+  width: 22%;
+  border-radius: 50%;
+}
+.team-cards--each .team-name {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 2% 0;
+}

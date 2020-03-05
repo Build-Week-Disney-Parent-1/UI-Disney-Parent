@@ -1,15 +1,18 @@
 .team {
     &-cards{
-        
+        margin-top: 2%;
+        @media only screen and(@tablet) {
+            margin-top: 5%;
+        }
         &--each {
             .flex;
             flex-flow: column wrap;
             align-items: center;
-            padding: 5%;
+            padding: 2%;
             margin: auto;
 
             img {
-                width: 22%;
+                width: 30%;
                 border-radius: 50%;
             }
 
@@ -17,6 +20,30 @@
                 .text-styles;
                 font-size: @name-size;
                 margin: 2% 0;
+                @media only screen and(@tablet) {
+                    font-size: 2.5rem;
+                }
+
+                @media only screen and(@mobile) {
+                   font-size: 2rem;
+                }
+            }
+
+            .team-blurb {
+                text-align: center;
+                .p-styles;
+                width: 22%;
+
+                @media only screen and(@tablet) {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    width: 40%;
+                }
+
+                @media only screen and(@mobile) {
+                    width: 75%;
+                }
+                
             }
         }
     }

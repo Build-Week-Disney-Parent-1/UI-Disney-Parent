@@ -1,6 +1,6 @@
 .main-index {
     .cta {
-        margin: 5% 12%;
+        margin: 5% 12.5%;
         .flex;
         justify-content: space-between;
         align-items: center;
@@ -85,9 +85,10 @@
     .img-gallery {
         .flex;
         justify-content: space-between;
-        margin: 0 12%;
+        margin: 0 10%;
         flex-wrap: wrap;
         text-align: center;
+        align-content: center;
 
         @media only screen and(@tablet) {
             flex-direction: column;
@@ -98,11 +99,12 @@
             .flex;
             flex-wrap: wrap;
             .img-gallery-card;
-
-
+            align-items: center;
+            
             img {
+                margin: 2% auto;
                 @media only screen and(@tablet) {
-                    width: 48%;
+                    width: 45%;
                 }
             }
 
@@ -118,8 +120,9 @@
             .img-gallery-card;
 
             img {
+                margin: 2% auto;
                 @media only screen and(@tablet) {
-                    width: 48%;
+                    width: 45%;  
                 }
             }
 

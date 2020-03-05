@@ -133,7 +133,7 @@ body {
 }
 .bg-container {
   width: 100%;
-  background: #eeeeee;
+  background: #e1f6fe;
   margin: auto;
   padding-bottom: 5%;
 }
@@ -421,18 +421,18 @@ body {
   margin: auto;
   align-items: center;
 }
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--left {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+}
 .main-index .img-gallery--left img {
   margin: 2% auto;
 }
 @media only screen and (max-width: 800px) {
   .main-index .img-gallery--left img {
     width: 45%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .main-index .img-gallery--left {
-    width: 100%;
-    margin-bottom: 8%;
   }
 }
 .main-index .img-gallery--right {
@@ -442,17 +442,17 @@ body {
   justify-content: space-between;
   margin: auto;
 }
+@media only screen and (max-width: 800px) {
+  .main-index .img-gallery--right {
+    width: 100%;
+  }
+}
 .main-index .img-gallery--right img {
   margin: 2% auto;
 }
 @media only screen and (max-width: 800px) {
   .main-index .img-gallery--right img {
     width: 45%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .main-index .img-gallery--right {
-    width: 100%;
   }
 }
 .main-index .img-gallery .img-text {
@@ -529,7 +529,7 @@ body {
   display: flex;
   padding: 2%;
   width: 25%;
-  background: #eeeeee;
+  background: #e1f6fe;
   border: none;
   border-radius: 5px;
   font-family: 'Gentium Basic', serif, sans-serif;
@@ -546,7 +546,7 @@ body {
   .main-contact .contact-form .form .btn {
     padding: 2%;
     width: 100%;
-    background: #eeeeee;
+    background: #e1f6fe;
     border: none;
     border-radius: 5px;
     font-family: 'Gentium Basic', serif, sans-serif;

@@ -150,6 +150,12 @@ body {
   font-style: italic;
   font-weight: bolder;
 }
+.p-styles {
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 2% 0;
+}
 .img-gallery-card {
   display: flex;
   width: 50%;
@@ -160,9 +166,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5%;
-  padding: 2% 0;
+  padding: 1% 5%;
   height: auto;
+  width: 100%;
+  background: #04B7FF;
 }
 @media only screen and (max-width: 800px) {
   .nav {
@@ -181,7 +188,7 @@ body {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -198,6 +205,7 @@ body {
   .nav .links {
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 2%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -218,7 +226,7 @@ body {
   }
 }
 .nav .links li:hover {
-  background: #04B7FF;
+  background: #e1f6fe;
 }
 .nav .links a {
   color: #2f2f2f;
@@ -565,4 +573,59 @@ body {
 .main-contact .contact-form .form .btn:hover {
   box-shadow: 10px 12px 18px 0px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+.team-cards {
+  margin-top: 2%;
+}
+@media only screen and (max-width: 800px) {
+  .team-cards {
+    margin-top: 5%;
+  }
+}
+.team-cards--each {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 2%;
+  margin: auto;
+}
+.team-cards--each img {
+  width: 30%;
+  border-radius: 50%;
+}
+.team-cards--each .team-name {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 2% 0;
+}
+@media only screen and (max-width: 800px) {
+  .team-cards--each .team-name {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .team-cards--each .team-name {
+    font-size: 2rem;
+  }
+}
+.team-cards--each .team-blurb {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 2% 0;
+  width: 22%;
+}
+@media only screen and (max-width: 800px) {
+  .team-cards--each .team-blurb {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .team-cards--each .team-blurb {
+    width: 75%;
+  }
 }

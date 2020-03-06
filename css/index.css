@@ -575,14 +575,25 @@ body {
   cursor: pointer;
 }
 .team-cards {
-  margin-top: 2%;
+  margin-top: 4%;
 }
 @media only screen and (max-width: 800px) {
   .team-cards {
     margin-top: 5%;
   }
 }
+.team-cards--row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+  .team-cards--row {
+    flex-direction: column;
+  }
+}
 .team-cards--each {
+  width: 48%;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -590,7 +601,7 @@ body {
   margin: auto;
 }
 .team-cards--each img {
-  width: 30%;
+  width: 50%;
   border-radius: 50%;
 }
 .team-cards--each .team-name {
@@ -615,17 +626,17 @@ body {
   font-size: 1.4rem;
   line-height: 2rem;
   padding: 2% 0;
-  width: 22%;
+  width: 50%;
 }
 @media only screen and (max-width: 800px) {
   .team-cards--each .team-blurb {
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 40%;
+    width: 75%;
   }
 }
 @media only screen and (max-width: 500px) {
   .team-cards--each .team-blurb {
-    width: 75%;
+    width: 100%;
   }
 }

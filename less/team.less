@@ -1,10 +1,20 @@
 .team {
     &-cards{
-        margin-top: 2%;
+        margin-top: 4%;
         @media only screen and(@tablet) {
             margin-top: 5%;
         }
+        &--row{
+            .flex;
+            justify-content: space-around;
+            align-items: center;
+            @media only screen and(@mobile) {
+                flex-direction: column;
+            }
+        }
+        
         &--each {
+            width: 48%;
             .flex;
             flex-flow: column wrap;
             align-items: center;
@@ -12,7 +22,7 @@
             margin: auto;
 
             img {
-                width: 30%;
+                width: 50%;
                 border-radius: 50%;
             }
 
@@ -32,16 +42,16 @@
             .team-blurb {
                 text-align: center;
                 .p-styles;
-                width: 22%;
+                width: 50%;
 
                 @media only screen and(@tablet) {
                     font-size: 1rem;
                     line-height: 1.5rem;
-                    width: 40%;
+                    width: 75%;
                 }
 
                 @media only screen and(@mobile) {
-                    width: 75%;
+                    width: 100%;
                 }
                 
             }
